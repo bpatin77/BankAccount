@@ -14,7 +14,7 @@ import "./transactions.scss";
 export default function Transactions() {
   // TODO: Get the balance from the Redux store using the useSelector hook
 
-  const balance = useSelector(selectBalance);//#4
+  const balance = useSelector(selectBalance);//???
 
   const [amountStr, setAmountStr] = useState("0.00");
   const [recipient, setRecipient] = useState("");
